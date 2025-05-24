@@ -1,0 +1,20 @@
+[project]
+title = "Bailey Davidson's Data Analysis App"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Preswald Project"
+logo = "images/house.png"
+favicon = "images/financial-profit.png"
+primaryColor = "#00909E"
+
+[data.sample_csv]
+type = "csv"
+path = "data/data.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
